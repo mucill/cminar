@@ -1,0 +1,92 @@
+body {
+  background-color: #f1f1f1;
+  font: 12pt/1.4 'Barlow', sans-serif; 
+}
+
+#content {
+  padding: 20px;
+}
+
+.navbar {
+  background: #1EEBDA;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar img {
+  width: 120px;
+  height: 120px;
+}
+
+.navbar-nav a {
+  color: #fff !important;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transform: color 0.5s;
+}
+
+.navbar-nav a:hover {
+  color: rgba(0,0,0,0.5) !important;
+}
+
+.spinner {
+  display: inline-block;
+  opacity: 0;
+  max-width: 0;
+  -webkit-transition: opacity 0.25s, max-width 0.45s;
+  -moz-transition: opacity 0.25s, max-width 0.45s;
+  -o-transition: opacity 0.25s, max-width 0.45s;
+  transition: opacity 0.25s, max-width 0.45s;
+  /* Duration fixed since we animate additional hidden width */
+}
+
+.has-spinner.active {
+  cursor: progress;
+}
+
+.has-spinner.active .spinner {
+  opacity: 1;
+  max-width: 50px;
+  /* More than it will ever come, notice that this affects on animation duration */
+}
+
+.card,
+.card-header {
+  border: 0;
+}
+
+.card-header {
+  text-transform: uppercase;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.card-footer {
+  border-top-color: #f1f1f1;
+  background: #fff;
+}
+
+.form-group label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.choose .custom-control {
+  padding-bottom: 5px;
+}
+
+.choose label {
+  font-size: 12pt;
+  font-weight: normal;
+}
+
+.choose .fa {
+  padding-left: 3px;
+  padding-right: 2px;
+  font-size: 12px;
+}
+
+.alert {
+  font-weight: normal;
+}

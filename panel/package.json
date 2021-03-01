@@ -37,7 +37,7 @@
     "pdfmake": "^0.1.57",
     "perfect-scrollbar": "^1.4.0",
     "popper.js": "^1.14.7",
-    "prismjs": "^1.15.0",
+    "prismjs": "^1.23.0",
     "select2": "^4.0.6-rc.1",
     "selectric": "^1.13.0",
     "sticky-kit": "^1.1.3",
